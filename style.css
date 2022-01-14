@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Area da foto */
+.headerForm {
+    background-image: url('./dev.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Area do menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.menu h2 {
+    padding-right: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.menu a {
+    margin-left: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.sobreHover:hover{
+    border-bottom: 2px solid #1E2844;
+    width: 140px;
+}
+.serviçoHover:hover{
+    border-bottom: 2px solid #1E2844;
+    width: 83px;
+}
+.contatoHover:hover{
+    border-bottom: 2px solid #1E2844;
+    width: 83px;
+}
+
+.logo {
+    color: #fff;
+    position: absolute;
+    width: 509px;
+    height: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-top: 36%;
+    margin-left: 50px;
+}
+
+/* Area do formulario */
+
+.formulario {
+    margin-left: 70%;
+    margin-top: 5%;
+    width: 300px;
+    height: 450px;
+    opacity: 0;
+}
+.mostratForm{
+
+    transition: opacity 1s linear;
+    opacity: 1;
+    margin-left: 70%;
+    margin-top: 5%;
+    width: 300px;
+    height: 450px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+input{
+    border: 1px solid #E6E6E6;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+}
+textarea{
+    border: 1px solid #E6E6E6;
+    padding-left: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+button {
+    background-color: #40BB15;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    position: static;
+    width: 220px;
+    height: 52px;
+    left: 40px;
+    top: 504px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #76eb4c;
+}
+
+/*Área Sobre Serviços */
+#h2Nossoservicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+}
+
+.sectionService {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.areaServicos {
+    display: flex;
+
+}
+
+.areaServicos1,
+.areaServicos2,
+.areaServicos3 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+    margin-right: 30px;
+    border: 2px solid #A9D6FF;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.fundoColor {
+    background-color: #219653;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+
+.areaServicos1 h3,
+.areaServicos2 h3,
+.areaServicos3 h3 {
+    text-align: center;
+}
+
+/*Área sobre nóz */
+
+
+#containerSobre {
+    background-color: #1E2844;
+    color: #fff;
+    position: relative;
+    width: 1440px;
+    height: 700px;
+}
+
+#containerSobre h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.sobre {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    position: absolute;
+    width: 1167px;
+    height: 483px;
+    left: 136px;
+    top: 137px;
+}
